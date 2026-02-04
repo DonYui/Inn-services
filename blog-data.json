@@ -1,0 +1,44 @@
+{
+  "articles": [
+    {
+      "id": "articulo-1",
+      "title": "Impulsa tus ventas con Odoo CRM: gestión de ventas inteligente y automatizada",
+      "date": "19 de Septiembre, 2025",
+      "category": "Tendencias",
+      "image": "images/blog_odoo.png",
+      "gradient": "linear-gradient(135deg, #ff020f 0%, #990009 100%)",
+      "excerpt": "En un mercado cada vez más competitivo, las empresas necesitan algo más que esfuerzo: requieren herramientas inteligentes que les ayuden a optimizar procesos, aumentar la visibilidad y mejorar la experiencia del cliente.",
+      "content": "<h3>¿Qué es Odoo?</h3><p>Odoo es un ERP todo en uno de código abierto que le permite gestionar todas las áreas de su negocio: ventas, proyectos, facturación, soporte, marketing y más. Lo mejor de todo es que su modularidad te permite crecer a tu propio ritmo: empiezas con lo esencial (por ejemplo, CRM y Ventas) y, cuando tu negocio lo necesita, puedes agregar más aplicaciones.Con más de 7 millones de usuarios en todo el mundo, Odoo es sinónimo de flexibilidad, escalabilidad y potencia.</p><h3>¿Por qué elegir Odoo?</h3><p>Entre todos sus módulos, CRM (Gestión de Relaciones con los Clientes) es uno de los más potentes. No es solo un lugar para almacenar contactos: es un motor de crecimiento empresarial</p><ul><li>Plataforma integrada: todos los módulos se comunican entre sí.</li><li> Interfaz moderna e intuitiva: fácil de usar para todo el equipo.</li><li>Accesible desde cualquier lugar: 100% web y con aplicación móvil.</li><li> Escalable: desde PYMES hasta grandes corporaciones.</li><li> Código abierto y personalizable: se adapta a tu negocio.</li></ul><h3>¿Qué hace que Odoo CRM sea único?</h3><ul><h4>Caracteristicas</h4><li>Captura automática de leads</li><li>Visualización de la tubería</li><li>Automatización de tareas</li><li>Análisis de ventas</li><li> Integración total</li><h4>Beneficios</h4><li>Desde formularios web, correo electrónico, chat o campañas.</li><li>Vista tipo kanban para seguir oportunidades por etapas.</li><li>Correos automáticos, recordatorios y asignaciones inteligentes.</li><li>KPIs, métricas y tasas de conversión por equipo.</li><li>Conecta CRM con facturación, marketing y más.</li></ul><h3>Lecciones Aprendidas</h3><p>El éxito comercial no depende solo de tener un buen equipo, sino también de contar con las herramientas adecuadas. Con Odoo CRM, puedes transformar tu proceso de ventas en un flujo más ordenado, automatizado y rentable.</p>"    },
+    {
+      "id": "articulo-2",
+      "title": "5 Tendencias en ERP que Debes Conocer para 2025",
+      "date": "10 de Enero, 2025",
+      "category": "Tendencias",
+      "image": "images/blog_ERP.png",
+      "gradient": "linear-gradient(135deg, #1a1a1a 0%, #404040 100%)",
+      "excerpt": "El mundo de los sistemas ERP está evolucionando rápidamente. Conoce las tendencias que definirán el futuro de la gestión empresarial.",
+      "content": "<h3>1. Inteligencia Artificial Integrada</h3><p>Los sistemas ERP modernos están incorporando capacidades de IA para análisis predictivo, automatización de tareas repetitivas y asistentes virtuales que mejoran la productividad de los usuarios.</p><h3>2. ERP en la Nube como Estándar</h3><p>La migración a soluciones cloud ya no es tendencia, es el estándar. Las empresas buscan flexibilidad, escalabilidad y reducción de costos de infraestructura que solo la nube puede ofrecer.</p><h3>3. Experiencia de Usuario Mejorada</h3><p>Las interfaces modernas de ERP están adoptando diseños intuitivos inspirados en aplicaciones de consumo, facilitando la adopción y reduciendo tiempos de capacitación.</p><h3>4. Integración con IoT</h3><p>La conexión entre dispositivos físicos y sistemas ERP permite una visibilidad sin precedentes de las operaciones, desde el piso de producción hasta la cadena de suministro.</p><h3>5. Análisis en Tiempo Real</h3><p>Los dashboards y herramientas de business intelligence integradas permiten tomar decisiones basadas en datos actualizados al segundo, no en reportes del mes anterior.</p>"
+    },
+    {
+      "id": "articulo-3",
+      "title": "ROI en Implementaciones ERP: Cómo Medir el Éxito",
+      "date": "5 de Enero, 2025",
+      "category": "Guías",
+      "image": "images/blog_ROI.png",
+      "gradient": "linear-gradient(135deg, #0066cc 0%, #004499 100%)",
+      "excerpt": "¿Cuál es el verdadero retorno de tu inversión en ERP? Aprende cómo medir correctamente el ROI y qué métricas son críticas para evaluar el éxito de tu implementación.",
+      "content": "<h3>Por qué Medir el ROI es Fundamental</h3><p>Una implementación de ERP representa una inversión significativa en tiempo, recursos y capital. Sin métricas claras de éxito, es imposible justificar la inversión o identificar áreas de mejora.</p><h3>Métricas Clave para Evaluar</h3><h4>Eficiencia Operativa</h4><ul><li>Tiempo de ciclo de procesos antes y después</li><li>Reducción de errores manuales</li><li>Horas-hombre ahorradas en tareas repetitivas</li></ul><h4>Impacto Financiero</h4><ul><li>Reducción en costos de inventario</li><li>Mejora en el flujo de efectivo</li><li>Disminución de costos operativos</li></ul><h4>Satisfacción del Usuario</h4><ul><li>Tasa de adopción del sistema</li><li>Encuestas de satisfacción del usuario</li><li>Reducción en tickets de soporte</li></ul><h3>Calculando el ROI</h3><p>La fórmula básica es: ROI = (Beneficios - Costos) / Costos x 100</p><p>Sin embargo, es importante considerar tanto beneficios tangibles (ahorros medibles) como intangibles (mejor toma de decisiones, satisfacción del cliente).</p><h3>Timeline Realista</h3><p>La mayoría de las implementaciones ERP muestran ROI positivo entre 12 y 24 meses después del go-live. Es importante establecer expectativas realistas y medir continuamente el progreso.</p>"
+    },
+    {
+      "id": "articulo-4",
+      "title": "Control presupuestal con Oracle Fusion: haz que cada peso cuente",
+      "date": "5 de Enero, 2025",
+      "category": "Guías",
+      "image": "images/blog_oracle1.png",
+      "gradient": "linear-gradient(135deg, #0066cc 0%, #004499 100%)",
+      "excerpt": "En Innology Services sabemos que mantener el control de los gastos no es tarea fácil. Por eso, hoy te mostramos cómo Oracle Fusion ayuda a las empresas a planificar y monitorear su presupuesto de forma sencilla, precisa y totalmente digital.",
+      "content": "<h3>¿Qué es el control presupuestal?</h3><p>Es una herramienta que permite saber en qué, cómo y cuándo se gasta el dinero de la empresa.Con Oracle Fusion, este proceso se vuelve automático: el sistema controla límites de gasto, aprueba transacciones y genera alertas cuando se acerca al tope del presupuesto.</p><h3>Ventajas para tu empresa</h3><h4>Transforma tus números en decisiones que impulsen tu éxito.</h4><ul><li>Visión clara de los gastos en tiempo real.</li><li>Prevención de errores y compras fuera del presupuesto.</li><li>Reportes y gráficos para decisiones más rápidas.</li><li>Alertas automáticas ante desviaciones.</li><li> Integración con módulos de pagos, proyectos y contabilidad.</li></ul><h4>Buenas prácticas para aprovechar Oracle Fusion</h4><ul><li>Define tus presupuestos por área o proyecto</li><li>Revisa los reportes de ejecución cada mes.</li><li>Configura alertas y flujos de aprobación.</li><li>Capacita a tu equipo para interpretar los resultados.</li><p>El control presupuestal no es solo una función contable, es una estrategia para hacer crecer tu negocio con inteligencia.En Innology Services, te ayudamos a implementar soluciones Oracle que te permiten tomar el control de tus finanzas y lograr resultados reales.</p>"
+    }
+    
+  ]
+}

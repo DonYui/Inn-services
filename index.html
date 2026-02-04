@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Innology Services - Consultoría especializada en implementación y optimización de sistemas ERP. Transformamos tu negocio con soluciones tecnológicas de clase mundial.">
+  <title>Innology Services | Consultoría ERP y Transformación Digital</title>
+  <link rel="icon" href="images/favicon.ico" type="image/png">
+
+  <link rel="stylesheet" href="styles.css">
+  <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+      }
+      
+      section {
+        scroll-margin-top: 80px;
+      }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header-container">
+      <a href="#inicio" class="logo">
+        <img src="images/logo.png" alt="Innology Services" class="logo-img">
+      </a>
+      
+      <nav class="nav-desktop">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#resultados" class="nav-link">Resultados</a>
+        <a href="#industrias" class="nav-link">Industrias</a>
+        <a href="#testimonios" class="nav-link">Testimonios</a>
+        <a href="#bolsa-trabajo" class="nav-link">Bolsa de Trabajo</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+    
+
+      <div class="social-desktop">
+        <a href="https://www.facebook.com/share/17918uLhT8/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/innology.services" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/company/innology-services/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+        <a href="https://www.tiktok.com/@innologyservices?_r=1&_t=ZS-93ViINOeOij" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.1 1.74 2.89 2.89 0 0 1 2.31-4.64 2.88 2.88 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.07A6.81 6.81 0 0 0 5 20.1a6.81 6.81 0 0 0 11.02-6.36v-5.07a7.7 7.7 0 0 0 4.58 1.42v-3.3a4.84 4.84 0 0 1-.41-.04z"/>
+          </svg>
+        </a>
+      </div>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg class="close-icon hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="mobileMenu">
+      <nav class="mobile-nav">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#resultados" class="nav-link">Resultados</a>
+        <a href="#bolsa-trabajo" class="nav-link">Bolsa de Trabajo</a>
+        <a href="#testimonios" class="nav-link">Testimonios</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+      <div class="mobile-social">
+        <a href="https://www.facebook.com/share/17918uLhT8/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/innology.services" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/company/innology-services/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+        <a href="https://www.tiktok.com/@innology.services" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.1 1.74 2.89 2.89 0 0 1 2.31-4.64 2.88 2.88 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.07A6.81 6.81 0 0 0 5 20.1a6.81 6.81 0 0 0 11.02-6.36v-5.07a7.7 7.7 0 0 0 4.58 1.42v-3.3a4.84 4.84 0 0 1-.41-.04z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section con Imagen -->
+  <section class="hero" id="inicio">
+    <div class="hero-pattern"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>+200 implementaciones exitosas</span>
+        </div>
+        <h1>Transformamos tu empresa con tecnología de vanguardia</h1>
+        <p>Implementamos, optimizamos y potenciamos tecnologia de distintos rubros para empresas que buscan eficiencia operativa y crecimiento sostenible.</p>
+        <div class="hero-buttons">
+          <a href="#contacto" class="btn btn-primary">Agenda una Consulta</a>
+          <a href="#servicios" class="btn btn-secondary">
+            Conoce Nuestros Servicios
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- Espacio para imagen en Hero -->
+      <div class="hero-image">
+        <img src="images/image6.gif" alt="Dashboard Innology Services" class="dashboard-img hero-img-efecto">
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Servicios</span>
+        <h2>Soluciones integrales para tu transformación digital</h2>
+        <p>Ofrecemos un portafolio completo de servicios diseñados para maximizar el valor de tu inversión en tecnología empresarial.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <h3>Implementación ERP</h3>
+          <p>Desplegamos sistemas ERP líderes como SAP, Oracle y Odoo, adaptados a las necesidades específicas de tu negocio.</p>
+          <a href="servicios.html#implementacion-erp" class="service-link">
+            Más información
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="12 2 15.09 10.26 24 10.27 17.18 16.70 19.34 25.07 12 19.77 4.66 25.07 6.82 16.70 0 10.27 8.91 10.26 12 2"></polyline>
+            </svg>
+          </div>
+          <h3>Desarrollo a la Medida</h3>
+          <p>Soluciones personalizadas de software, desarrollo móvil, diseño UX/UI y tecnologías emergentes como IoT y Cyberseguridad.</p>
+          <a href="servicios.html#desarrollo-medida" class="service-link">
+            Más información
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+              <path d="M16 4H8"></path>
+              <path d="M9 11h6"></path>
+              <path d="M9 15h6"></path>
+            </svg>
+          </div>
+          <h3>Servicios Web</h3>
+          <p>Diseño y desarrollo de sitios web modernos, responsivos y optimizados para conversión que impulsan tu presencia digital.</p>
+          <a href="servicios.html#servicios-web" class="service-link">
+            Más información
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección con efecto Parallax -->
+  <section class="parallax-section">
+    <div class="parallax-content reveal">
+      <h2>Transformación Digital</h2>
+      <p>Descubre cómo nuestras soluciones digitales pueden impulsar tu negocio hacia el futuro.</p>
+    </div>
+  </section>
+
+  <!-- Nueva Sección de Resultados con contenido de Por qué Elegirnos -->
+  <section class="results-section" id="resultados">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Resultados</span>
+        <h2>La experiencia que tu empresa necesita</h2>
+        <p>Combinamos conocimiento técnico profundo con un enfoque centrado en resultados de negocio. Nuestro compromiso con la excelencia se refleja en los resultados que entregamos a nuestros clientes.</p>
+      </div>
+      <div class="results-stats">
+        <div class="stats-glow"></div>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <span class="stat-value" data-target="10">0</span>
+            <span class="stat-plus">+</span>
+            <span class="stat-label">Años de Experiencia</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <span class="stat-value" data-target="70">0</span>
+            <span class="stat-plus">+</span>
+            <span class="stat-label">Consultores Certificados</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <span class="stat-value" data-target="250">0</span>
+            <span class="stat-plus">+</span>
+            <span class="stat-label">Proyectos Exitosos</span>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <span class="stat-value" data-target="98">0</span>
+            <span class="stat-percent">%</span>
+            <span class="stat-label">Satisfacción</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries Section -->
+  <section class="industries" id="industrias">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Industrias</span>
+        <h2>Experiencia en tu sector</h2>
+        <p>Conocemos los desafíos específicos de cada industria y adaptamos nuestras soluciones para maximizar el impacto.</p>
+      </div>
+      <div class="infinite-carousel-container">
+        <div class="carousel-gradient-overlay left"></div>
+        <div class="infinite-carousel-track" id="infiniteCarouselTrack">
+          <!-- Los slides se generan dinámicamente con JavaScript -->
+        </div>
+        <div class="carousel-gradient-overlay right"></div>
+      </div>
+
+      <!-- Sección de Banderas de Países -->
+      <div class="flags-section">
+        <div class="flags-container">
+          <div class="flag-item">
+            <img src="images/mexico.png" alt="Bandera país 1" class="flag-image">
+          </div>
+          <div class="flag-item">
+            <img src="images/rd.png" alt="Bandera país 2" class="flag-image">
+          </div>
+          <div class="flag-item">
+            <img src="images/guatemala.png" alt="Bandera país 3" class="flag-image">
+          </div>
+          <div class="flag-item">
+            <img src="images/peru.png" alt="Bandera país 4" class="flag-image">
+          </div>
+          <div class="flag-item">
+            <img src="images/panama.png" alt="Bandera país 5" class="flag-image">
+          </div>
+          <div class="flag-item">
+            <img src="images/chile.png" alt="Bandera país 6" class="flag-image">
+          </div>
+          <div class="flag-item">
+            <img src="images/colombia.png" alt="Bandera país 7" class="flag-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonios">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Testimonios</span>
+        <h2>Lo que dicen nuestros clientes</h2>
+        <p>Historias de éxito que demuestran nuestro compromiso con la excelencia.</p>
+      </div>
+      <div class="testimonials-carousel">
+        <div class="testimonial-card">
+          <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+          </svg>
+          <blockquote id="testimonialText">La implementación de SAP con Innology Services transformó completamente nuestra operación. Redujimos tiempos de cierre contable de 15 días a solo 3.</blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar" id="authorAvatar">CM</div>
+            <div class="author-info">
+              <span class="author-name" id="authorName">Carlos Mendoza</span>
+              <span class="author-role" id="authorRole">Director de Finanzas - Grupo Industrial del Norte</span>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="prevBtn" aria-label="Anterior">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+          <div class="carousel-dots" id="carouselDots"></div>
+          <button class="carousel-btn" id="nextBtn" aria-label="Siguiente">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Bolsa de Trabajo Section -->
+  <section class="jobs-section" id="bolsa-trabajo">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Bolsa de Trabajo</span>
+        <h2>Únete a Nuestro Equipo</h2>
+        <p>Buscamos talento excepcional para crecer junto a nosotros. Explora las oportunidades disponibles en nuestras diferentes áreas.</p>
+      </div>
+      <div class="reasons-grid jobs-grid-centered">
+        <div class="reason-card job-card" onclick="window.location.href='vacantes.html?tipo=laborales'" style="cursor: pointer;">
+          <div class="reason-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 4H8"></path>
+              <path d="M9 11h6"></path>
+              <path d="M9 15h6"></path>
+            </svg>
+          </div>
+          <h3>Vacantes Laborales</h3>
+          <p>Únete a nuestro equipo de profesionales en roles estratégicos. Oportunidades para consultores y ejecutivos de ventas especializados en tecnología Oracle.</p>
+          <div class="job-positions">
+            <span class="position-badge">Consultor Funcional de Finanzas </span>
+            <span class="position-badge">Consultor Funcional HCM </span>
+            <span class="position-badge">Ejecutivo de Ventas </span>
+          </div>
+        </div>
+        <div class="reason-card job-card" onclick="window.location.href='vacantes.html?tipo=trainee'" style="cursor: pointer;">
+          <div class="reason-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H12"></path>
+              <path d="M12 5h6.5a2.5 2.5 0 0 1 2.5 2.5v10"></path>
+              <circle cx="12" cy="9" r="2"></circle>
+              <path d="M8 19h8"></path>
+            </svg>
+          </div>
+          <h3>Vacantes para Trainee</h3>
+          <p>Inicia tu carrera profesional en un ambiente dinámico y formativo. Programas especializados para recién graduados en diversas disciplinas.</p>
+          <div class="job-positions">
+            <span class="position-badge">Contador Público</span>
+            <span class="position-badge">Derecho</span>
+            <span class="position-badge">Diseño</span>
+            <span class="position-badge">Marketing</span>
+            <span class="position-badge">Finanzas</span>
+            <span class="position-badge">TI (Tecnologías de la Información)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="blog" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Blog</span>
+        <h2>Últimas Noticias y Casos de Éxito</h2>
+        <p>Mantente informado sobre tendencias en transformación digital, mejores prácticas ERP y historias de éxito de nuestros clientes.</p>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-image" style="background: linear-gradient(135deg, #ff020f 0%, #000000 100%);"></div>
+          <div class="blog-content">
+            <span class="blog-date">15 de Enero, 2025</span>
+            <h3>Transformación Digital: Casos de Éxito en Latinoamérica</h3>
+            <p>Descubre cómo empresas líderes en la región han logrado optimizar sus operaciones mediante implementaciones estratégicas de sistemas ERP.</p>
+            <a href="blog.html#articulo-1" class="blog-link">Leer más</a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-image" style="background: linear-gradient(135deg, #1a1a1a 0%, #404040 100%);"></div>
+          <div class="blog-content">
+            <span class="blog-date">10 de Enero, 2025</span>
+            <h3>5 Tendencias en ERP que Debes Conocer para 2025</h3>
+            <p>La inteligencia artificial, la computación en la nube y la automatización están revolucionando el mundo de los sistemas ERP.</p>
+            <a href="blog.html#articulo-2" class="blog-link">Leer más</a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-image" style="background: linear-gradient(135deg, #0066cc 0%, #004499 100%);"></div>
+          <div class="blog-content">
+            <span class="blog-date">5 de Enero, 2025</span>
+            <h3>ROI en Implementaciones ERP: Cómo Medir el Éxito</h3>
+            <p>¿Cuál es el verdadero retorno de tu inversión en ERP? Aprende cómo medir correctamente el ROI y qué métricas son críticas.</p>
+            <a href="blog.html#articulo-3" class="blog-link">Leer más</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer Simplificado -->
+<footer class="footer" id="contacto">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="images/logo1.png" alt="Innology Services" class="footer-logo">
+        <p>Transformamos empresas con soluciones tecnológicas de clase mundial.</p>
+      </div>
+      
+      <div class="footer-contact-info">
+        <div class="contact-section">
+          <h4>Contacto</h4>
+          <a href="mailto:informes@innologyservices.com" class="contact-link email-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>informes@innologyservices.com</span>
+          </a>
+        </div>
+
+<div class="contact-section">
+  <h4>Teléfono</h4>
+  <div class="phone-numbers">
+    <a href="tel:+522466907423" class="contact-link phone-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+      <span>246 690 74 23</span>
+    </a>
+    <a href="tel:+522463099992" class="contact-link phone-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </svg>
+      <span>246 309 99 92</span>
+    </a>
+  </div>
+</div>
+        
+        <div class="contact-section">
+          <h4>Ubicación</h4>
+          <a href="https://maps.app.goo.gl/CpiARuxkQ23EVg5T8" target="_blank" rel="noopener noreferrer" class="contact-link location-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Calle Los Pinos 14b, Barrio Miraflores, Tlaxcala de Xicohténcatl, Tlax.</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <a href="aviso-privacidad.html" class="footer-privacy-link">Aviso de Privacidad</a>
+      <p>&copy; 2025 Innology Services. Todos los derechos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+  <script src="scripts.js"></script>
+
+  <!-- Botón Flotante de WhatsApp -->
+<div class="whatsapp-float">
+  <a href="https://wa.me/522463099992" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.76.982.998-3.677-.236-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.9 6.994c-.004 5.45-4.438 9.88-9.888 9.88m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.333.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.333 11.893-11.893 0-3.18-1.24-6.162-3.495-8.411"></path>
+    </svg>
+  </a>
+</div>
+
+
+</body>
+</html>

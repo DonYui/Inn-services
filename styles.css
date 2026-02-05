@@ -394,7 +394,7 @@ img {
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 80%;
+  width: 150%;
 }
 
 .dashboard-img {
@@ -521,14 +521,14 @@ img {
 
 .service-card {
   padding: 1.5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #3119ce;
   border-radius: 1rem;
   transition: all 0.3s ease;
   background: white;
 }
 
 .service-card:hover {
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 40px rgba(42, 42, 42, 0.745);
   transform: translateY(-4px);
 }
 
@@ -546,7 +546,7 @@ img {
 }
 
 .service-card:hover .service-icon {
-  background: linear-gradient(135deg, #ff020f 0%, #000000 100%);
+  background: linear-gradient(135deg, #113ca9 40%, #19d9f3 100%);
   color: white;
 }
 
@@ -575,7 +575,7 @@ img {
 }
 
 .service-link:hover {
-  color: #ff020f;
+  color: #2c14ff;
 }
 
 /* Parallax Section */
@@ -695,7 +695,7 @@ img {
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 1rem;
-  background: linear-gradient(135deg, #ff020f 0%, #990009 100%);
+  background: linear-gradient(135deg, #2514df 0%, #389cfb 100%);
   display: flex;
   align-items: center;
   justify-content: center;

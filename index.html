@@ -32,8 +32,8 @@
       
       <nav class="nav-desktop">
         <a href="#inicio" class="nav-link">Inicio</a>
-        <a href="#servicios" class="nav-link">Servicios</a>
-        <a href="#blog" class="nav-link">Blog</a>
+        <a href="servicios.html" class="nav-link">Servicios</a>
+        <a href="blog.html" class="nav-link">Blog</a>
         <a href="#beneficios" class="nav-link">Beneficios</a>
         <a href="#areas" class="nav-link">Áreas</a>
         <a href="#perfiles" class="nav-link">Perfiles</a>
@@ -82,8 +82,8 @@
     <div class="mobile-menu hidden" id="mobileMenu">
       <nav class="mobile-nav">
         <a href="#inicio" class="nav-link">Inicio</a>
-        <a href="#servicios" class="nav-link">Servicios</a>
-        <a href="#blog" class="nav-link">Blog</a>
+        <a href="servicios.html" class="nav-link">Servicios</a>
+        <a href="blog.html" class="nav-link">Blog</a>
         <a href="#beneficios" class="nav-link">Beneficios</a>
         <a href="#areas" class="nav-link">Áreas</a>
         <a href="#perfiles" class="nav-link">Perfiles</a>
@@ -229,12 +229,8 @@
         <p>Mantente informado sobre tendencias en talento, mejores prácticas de reclutamiento y historias de éxito de nuestros clientes</p>
       </div>
       
-      <div class="blog-grid" id="blogGrid">
-        <!-- Los artículos se cargarán aquí con JavaScript -->
-      </div>
-      
       <div class="blog-cta">
-        <a href="blog.html" class="btn btn-primary">Ver Todos los Artículos</a>
+        <a href="blog.html" class="btn btn-primary">Ver Blog Completo</a>
       </div>
     </div>
   </section>
@@ -615,51 +611,6 @@
   </footer>
 
   <script src="scripts.js"></script>
-
-  <!-- Blog Loading Script -->
-  <script>
-    async function loadBlogArticles() {
-      try {
-        const response = await fetch('blog-data.json');
-        const data = await response.json();
-        const blogGrid = document.getElementById('blogGrid');
-        
-        if (!blogGrid) return;
-        
-        // Mostrar solo los primeros 3 artículos
-        const articlesToShow = data.articles.slice(0, 3);
-        
-        articlesToShow.forEach(article => {
-          const blogCard = document.createElement('div');
-          blogCard.className = 'blog-card';
-          
-          blogCard.innerHTML = `
-            <div class="blog-image" style="background: ${article.gradient};">
-              <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.9rem;">
-                ${article.image ? `<img src="${article.image}" alt="${article.title}" style="width: 100%; height: 100%; object-fit: cover;">` : article.category}
-              </div>
-            </div>
-            <div class="blog-content">
-              <div class="blog-meta">
-                <span class="blog-category">${article.category}</span>
-                <span>${article.date}</span>
-              </div>
-              <h3>${article.title}</h3>
-              <p class="blog-excerpt">${article.excerpt}</p>
-              <a href="blog.html#${article.id}" class="blog-read-more">Leer más →</a>
-            </div>
-          `;
-          
-          blogGrid.appendChild(blogCard);
-        });
-      } catch (error) {
-        console.error('Error loading blog articles:', error);
-      }
-    }
-    
-    // Cargar artículos cuando el DOM esté listo
-    document.addEventListener('DOMContentLoaded', loadBlogArticles);
-  </script>
 
   <!-- Botón Flotante de WhatsApp -->
   <div class="whatsapp-float">

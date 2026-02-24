@@ -1274,3 +1274,82 @@ img {
     font-size: 3rem;
   }
 }
+/* ===== CLIENTES CARRUSEL ===== */
+.clients-carousel {
+  width: 100%;
+  overflow: hidden;          /* Esconde los logos que se salgan del contenedor */
+  padding: 1.5rem 0;         /* Espacio arriba y abajo para que no quede tan pegado */
+}
+
+.clients-section .clients-grid {
+  display: flex !important;  /* Forzamos el display flex */
+  gap: 3rem;                 /* Espacio entre logos. Ajusta a tu gusto */
+  animation: scrollClientes 30s linear infinite; /* Velocidad de la animación */
+  width: max-content;        /* Hace que el contenedor sea tan ancho como todos los logos juntos */
+  grid-template-columns: none; /* Eliminamos cualquier estilo de grid */
+}
+
+/* La animación: mueve el contenedor de logos de su posición original a la izquierda */
+@keyframes scrollClientes {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 1.5rem)); /* Ajusta según tu gap */
+  }
+}
+
+/* Para que la animación sea más suave y no se detenga al pasar el mouse */
+.clients-carousel:hover .clients-grid {
+  animation-play-state: paused;
+}
+
+/* Contenedor de cada logo: lo hacemos más pequeño */
+.clients-section .clients-grid .logo-placeholder {
+  flex: 0 0 auto;            /* Evita que los logos se encojan o crezcan */
+  width: 120px;              /* Ancho fijo para el contenedor del logo */
+  height: 80px;              /* Alto fijo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;       /* Mantenemos el fondo de tus logos */
+  border-radius: 0.75rem;    /* Mantenemos el borde redondeado */
+  padding: 0.5rem;           /* Espacio interno para que la imagen no quede pegada al borde */
+  transition: all 0.3s ease;
+  margin: 0;                 /* Eliminamos cualquier margen por defecto */
+}
+
+/* La imagen dentro del logo: que ocupe el espacio disponible */
+.clients-section .clients-grid .logo-placeholder img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;       /* Ajusta la imagen sin deformarla */
+  filter: sepia(100%) hue-rotate(180deg) saturate(200%); /* Tinte azul en lugar de gris */
+  opacity: 0.8;              /* Un poco más visible que antes */
+  transition: all 0.3s ease;
+}
+
+/* Al pasar el mouse sobre un logo, lo resaltamos */
+.clients-section .clients-grid .logo-placeholder:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(30, 91, 184, 0.2);
+}
+
+.clients-section .clients-grid .logo-placeholder:hover img {
+  filter: none;              /* Quitamos todos los filtros al hacer hover */
+  opacity: 1;
+}
+
+/* Responsive: ajustar el tamaño en móviles */
+@media (max-width: 768px) {
+  .clients-section .clients-grid .logo-placeholder {
+    width: 100px;
+    height: 60px;
+  }
+  
+  .clients-section .clients-grid {
+    gap: 2rem;
+  }
+}
